@@ -1,8 +1,8 @@
 <?php
 
-
 use yii\web\View;
 use yii\widgets\ActiveForm;
+use magbeto\mygii\generators\model\Generator;
 
 /* @var $this View */
 /* @var $form ActiveForm */
