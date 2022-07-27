@@ -1,0 +1,36 @@
+{
+    "name": "magbeto/yii2-mygii",
+    "description": "Gii with double model generation",
+    "keywords": ["yii2", "gii"],
+    "type": "yii2-extension",
+    "license": "BSD-4-Clause",
+    "authors": [
+        {
+            "name": "Roberto Garcia",
+            "email": "magbeto@hotmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "^2.0",
+        "yiisoft/yii2-gii": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "magbeto\\mygii\\": ""
+        }
+    },
+    "extra": {
+        "bootstrap": "magbeto\\mygii\\Bootstrap"
+    },
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
+    }
+}
